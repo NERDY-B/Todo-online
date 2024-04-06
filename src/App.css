@@ -36,3 +36,30 @@
     transform: rotate(360deg);
   }
 }
+
+.drop-shadow{
+  box-shadow: 0 4px 4px #c7c6c6;
+}
+.inner-shadow{
+  box-shadow: 0 3px 1px 0 #A8B5DE inset;
+}
+
+.margin{
+  position: relative;
+  top: 80px;
+  left: 35%;
+}
+
+.bgpattern{
+  background: url('../src/asset/bgbookpt.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.forgot-content{
+  width: 50%;
+  height: 70%;
+  background-color:rgb(53, 86, 171, .3) ;
+  border: 1px solid black;
+}
